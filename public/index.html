@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="{% static "build/react.js" %}"></script>
+    <!-- <script src="{% static "build/react.js" %}"></script> -->
     <link href="%PUBLIC_URL%/font/OpenSans/OpenSans.css" rel="stylesheet">
     <link rel="icon" href="%PUBLIC_URL%/pictures/silverbutton-rand.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/main.css">
@@ -51,7 +51,8 @@
             <div id="list" class="container"></div>
             <div class="footer-container">
                 <div class="footer" id="footer">
-                    <button id="info" onclick=" info();"><img id="infpic" src="%PUBLIC_URL%/pictures/kiss.png" /></button>
+                    <button id="info" onclick=" info();"><img id="infpic"
+                            src="%PUBLIC_URL%/pictures/kiss.png" /></button>
                     <span id="version">Version: 6.6.6</span>
                     <label class="change">
                         <input type="checkbox" onclick="black_out();">
